@@ -11,7 +11,7 @@ const Hero = () => {
           display: 'flex',
           flexDirection: { xs: 'column', sm: 'row' }, // Stack vertically on small screens, horizontally on larger screens
           justifyContent: 'space-between', // Space out the text and image
-          padding: 2,
+          padding: 5,
         }}
       >
         <Box
@@ -24,7 +24,7 @@ const Hero = () => {
             maxWidth: { xs: '100%', sm: '50%' },
           }}
         >
-          <Typography variant='h4' color='#F4CE14'>
+          <Typography variant='h4' color='#F4CE14' marginTop='1rem'>
             Little Lemon
           </Typography>
           <Typography variant='h5' color='white' marginTop='-.5rem' marginBottom='2rem'>
@@ -47,13 +47,15 @@ const Hero = () => {
             display: 'flex',
             justifyContent: 'flex-end', 
             alignItems: 'center',
+            maxWidth: '100%'
           }}
         >
           <img 
             src={restaurantFood}
             alt="Image of restaurant food"
             style={{ 
-              width: '40%', 
+              width: '50%', 
+              maxWidth: '50%',
               height: 'auto', 
               objectFit: 'cover', 
               borderRadius: '8pt' }} // Adjust size as needed

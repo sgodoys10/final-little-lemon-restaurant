@@ -7,7 +7,13 @@ const CallToActionButton = () => {
   return (
     <Link to="/booking" style={{textDecoration:'none'}}>
     <ThemeProvider theme={theme}>
-      <Button variant='contained' color='secondary'>Reserve a table</Button>
+      <Button
+        variant='contained'
+        color='secondary'
+        sx={{borderRadius:'16pt'}}
+        >
+        Reserve a table
+      </Button>
     </ThemeProvider>
     </Link>
   )
