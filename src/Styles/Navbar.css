@@ -1,0 +1,8 @@
+.header-nav-item {
+    text-decoration: none;
+    color: #333333;
+}
+
+.header-nav-item:hover {
+    color: #F4CE14; 
+}
