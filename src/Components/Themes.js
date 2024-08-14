@@ -12,6 +12,9 @@ const theme = createTheme({
       primary: '#333333', // Custom secondary color
       secondary: '#EDEFEE', // Custom secondary color
     },
+    other: {
+      primary: '#EE9972'
+    }
   },
 });
 

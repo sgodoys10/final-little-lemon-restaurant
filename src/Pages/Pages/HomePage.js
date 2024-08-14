@@ -11,7 +11,7 @@ import Logo from '../../assets/Logo.png'
 const HomePage = () => {
   return (
     <Container>
-      <Grid container direction="column" spacing={2}>
+      <Grid container direction="column" spacing={1}>
         <Grid item>
           <Box sx={{color: '#333333', padding: 2}}>
             <Grid container alignItems="center" justifyContent="space-between">

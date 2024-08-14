@@ -11,7 +11,7 @@ const Hero = () => {
           display: 'flex',
           flexDirection: { xs: 'column', sm: 'row' }, // Stack vertically on small screens, horizontally on larger screens
           justifyContent: 'space-between', // Space out the text and image
-          padding: 5,
+          padding: 1,
         }}
       >
         <Box
@@ -33,11 +33,11 @@ const Hero = () => {
           <Typography 
             variant='body1' 
             color='white' 
-            sx={{ maxWidth: '50%' }}
+            sx={{ maxWidth: '75%' }}
           >
             We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
           </Typography>
-          <Box sx={{marginTop:5}}>
+          <Box sx={{marginTop:4}}>
           <CallToActionButton/>
           </Box>
         </Box>
@@ -52,9 +52,9 @@ const Hero = () => {
         >
           <img 
             src={restaurantFood}
-            alt="Image of restaurant food"
+            alt="Restaurant food"
             style={{ 
-              width: '50%', 
+              width: '35%', 
               maxWidth: '50%',
               height: 'auto', 
               objectFit: 'cover', 

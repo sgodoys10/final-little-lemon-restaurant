@@ -3,6 +3,7 @@ import HomePage from './Pages/Pages/HomePage';
 import BookingPage from './Pages/Pages/BookingPage';
 import BookingConfirmation from './Pages/Pages/BookingConfirmation';
 import { Route,Routes } from 'react-router-dom';
+import 'swiper/swiper-bundle.css';
 
 function App() {
   return (
