@@ -6,7 +6,7 @@ import TestimonialCards from '../../../Components/TestimonialCards';
 const TestimonialHeaderWrapper = styled(Box)({
     display: 'flex',
     justifyContent: 'center',
-    marginBottom: '20px',
+    marginBottom: '16px',
 });
 
 const Testimonials = () => {

@@ -6,6 +6,7 @@ import lemondessert from '../../../assets/lemondessert.jpg'
 import restaurantfood from '../../../assets/restaurantfood.jpg'
 import theme from '../../../Components/Themes';
 import DeliveryDiningIcon from '@mui/icons-material/DeliveryDining';
+import OnlineMenuButton from '../../../Components/OnlineMenuButton';
 
 const StyledCard = styled(Card)({
   maxWidth: 300,
@@ -24,6 +25,7 @@ const CardContainer = styled(Box)({
   flexWrap: 'wrap', // Allows wrapping on smaller screens
   gap: '16px', // Gap between cards
   padding: '16px',
+  marginBottom: '-10px'
 });
 
 const HeaderAndPriceWrapper = styled(Box)({
@@ -41,7 +43,16 @@ const MyCard = () => {
   return (
     <>
     <ThemeProvider theme={theme}>
+    <Box
+      sx={{
+        display: 'flex', 
+        justifyContent: 'space-between',
+        marginBottom: '15px'
+      }}
+    >
     <Typography variant='h5' color="text.primary"> This Week's Specials</Typography>
+    <OnlineMenuButton/>
+    </Box>
     <CardContainer>
     <StyledCard>
       <CardMedia
