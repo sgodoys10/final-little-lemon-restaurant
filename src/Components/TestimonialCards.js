@@ -18,11 +18,10 @@ const ImgContainer = styled('div')({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center',
     transition: 'transform 0.5s ease-in-out',
     justifyContent: 'center',
     height: '275px', // Height of the carousel
-    backgroundColor: '#F4CE14', // Background color inside the carousel
+    backgroundColor: 'hsl(50, 28%, 70%)', // Background color inside the carousel
     filter: 'brightness(-1)',
     borderRadius: '8pt'
   });

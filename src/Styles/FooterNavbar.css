@@ -1,0 +1,8 @@
+.footer-nav-item {
+    text-decoration: none;
+    color: #333333;
+}
+
+.footer-nav-item:hover {
+    color: #F4CE14; 
+}
