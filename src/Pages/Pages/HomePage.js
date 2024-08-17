@@ -49,7 +49,7 @@ const HomePage = () => {
           </Box>
         </Grid>
         <Grid item>
-          <Box sx={{backgroundColor: '#f5f5f5', padding:2}}>
+          <Box sx={{backgroundColor: '#f5f5f5', padding:2, borderRadius:'8pt'}}>
             <About/>
           </Box>
         </Grid>
