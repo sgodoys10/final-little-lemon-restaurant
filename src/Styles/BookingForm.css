@@ -1,0 +1,11 @@
+.label {
+    padding: .5rem;
+}
+
+.preferences-input {
+    width: 90%;
+    height: 150px; /* Adjust height as needed */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
