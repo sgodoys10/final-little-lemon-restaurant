@@ -5,7 +5,7 @@ import About from '../Pages/Views/About'
 import Testimonials from '../Pages/Views/Testimonials'
 import Hero from '../Pages/Views/Hero'
 import Specials from '../Pages/Views/Specials'
-import { Grid, Container, Box, Typography } from '@mui/material'
+import { Grid, Container, Box} from '@mui/material'
 import Logo from '../../assets/Logo.png'
 
 const HomePage = () => {
