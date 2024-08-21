@@ -118,21 +118,22 @@ const BookingPage = () => {
     <Box 
       sx={{
         backgroundColor:'#495E57',
-        padding: 2
+        padding: 1.5
   }}
     >
-      <Typography variant='h5'
+      <Typography variant='h5' fontWeight="bold"
         sx={{
           color: 'text.secondary',
           display: 'flex',
-          justifyContent: 'center'
+          justifyContent: 'center',
+          padding: '2rem'
         }}
       >
         Reserve a table
       </Typography>
     </Box>
     </ThemeProvider>
-    <BookingForm
+    <BookingForm 
         numberOfPeople={numberOfPeople}
         availableTimes={timesState.times}
         occasions={occasions}
